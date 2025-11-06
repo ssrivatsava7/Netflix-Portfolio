@@ -22,14 +22,14 @@ Here’s what this project uses:
 ## 📁 Project Structure  
 - /public → Static assets
 - /src → All source code
-/components → Reusable UI components
-/pages → Page views
-/styles → Global styles / Tailwind config
-.gitignore
-package.json
-tailwind.config.js
-vite.config.ts
-README.md
+- /components → Reusable UI components
+- /pages → Page views
+- /styles → Global styles / Tailwind config
+- .gitignore
+- package.json
+- tailwind.config.js
+- vite.config.ts
+- README.md
 
 
 ## 🎬 Live Demo  
