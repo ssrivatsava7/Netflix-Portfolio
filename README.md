@@ -1,86 +1,105 @@
-# Netflix‑Style Fullstack Portfolio  
-*A web application showcasing my projects, resume, and personal brand — styled in a Netflix‑inspired UI*
+# Netflix‑Style Fullstack Portfolio
 
-## 🚀 Project Overview  
+*A web application showcasing me — styled in a Netflix‑inspired UI.*
+
+## 🚀 Project Overview
+
 Welcome to my portfolio — a fullstack web application that presents my profile in a sleek, modern interface inspired by the visual layout of Netflix.
-The goal: stand out by combining strong UI/UX with solid engineering and show that I can deliver both design and code.
+The goal: stand out by combining strong UI/UX with solid engineering and demonstrate the ability to deliver both design and code.
 
-## 🎯 Why This Project Matters  
-- **Visual differentiation:** Rather than a standard static portfolio website, this delivers a dynamic, interactive experience.  
-- **End‑to‑end fullstack demonstration:** From frontend UI to backend logic.
-- **Tech fluency:** Highlights my proficiency in modern web development tools, component design, state management, and deployment.  
-- **Recruiter‑friendly:** Easy to explore my work, navigate projects, and view my resume — all in one place.
+## 🎯 Why This Project Matters
 
-## 🧰 Tech Stack  
-Here’s what this project uses:  
-- **Frontend:** TypeScript, React / Vite (fast build & HMR)  
-- **Styling:** Tailwind CSS for utility‑first styling  
-- **Bundler / Dev Tools:** Vite (superior developer experience)  
-- **Linting / Quality:** ESLint (config present)  
-- **Deployment:** Vercel
+* **Visual differentiation:** A dynamic, interactive experience instead of a static portfolio website.
+* **End-to-end fullstack demonstration:** From frontend UI to backend logic.
+* **Tech fluency:** Highlights proficiency in modern web development tools, component design, state management, and deployment.
+* **Recruiter-friendly:** Easy to explore work, navigate projects, and view the resume — all in one place.
 
-## 📁 Project Structure  
-- /public → Static assets
-- /src → All source code
-- /components → Reusable UI components
-- /pages → Page views
-- /styles → Global styles / Tailwind config
-- .gitignore
-- package.json
-- tailwind.config.js
-- vite.config.ts
-- README.md
+## 🧰 Tech Stack
 
+* **Frontend:** TypeScript, React / Vite
+* **Styling:** Tailwind CSS for utility-first styling
+* **Bundler / Dev Tools:** Vite
+* **Linting / Quality:** ESLint
+* **Deployment:** Vercel
 
-## 🎬 Live Demo  
-Click here to view the live site: [https://netflix-portfolio-liart.vercel.app/](https://netflix-portfolio-liart.vercel.app/)
+## 📁 Project Structure
 
-## 🛠️ Getting Started (Developer Instructions)  
-If you’d like to run this locally, here are the steps:
+```
+/public          → Static assets
+/src             → Source code
+  /components    → Reusable UI components
+  /pages         → Page views
+  /styles        → Global styles / Tailwind config
+.gitignore
+package.json
+tailwind.config.js
+vite.config.ts
+README.md
+```
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/ssrivatsava7/netflix‑portfolio.git
-   cd netflix‑portfolio
+## 🎬 Live Demo
 
-   
-2. Install dependencies:
+[View Live Site](https://netflix-portfolio-liart.vercel.app/)
+
+## 🛠️ Getting Started (Developer Instructions)
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/ssrivatsava7/netflix-portfolio.git
+cd netflix-portfolio
+```
+
+2. **Install dependencies**
+
+```bash
 npm install
-or
+# or
 yarn install
+```
 
+3. **Start the development server**
 
-3. Start the development server:
+```bash
 npm run dev
-open http://localhost:5173 in your browser (or whichever port Vite uses)
+```
 
-4. Build for production
+Open `http://localhost:5173` in your browser (or whichever port Vite chooses).
+
+4. **Build for production**
+
+```bash
 npm run build
 npm run preview
+```
 
-5. (Optional) Lint / format code
+5. **Optional: Lint / format code**
+
+```bash
 npm run lint
 npm run format
+```
+
+## ✅ Features
+
+* Sleek, full-width layout with Netflix-inspired visuals
+* Easy navigation between projects, “About Me”, and resume sections
+* Responsive design for desktop and mobile
+* Thoughtful UI/UX: hover effects, card animations, clean typography
+* Code quality: TypeScript for type-safety, ESLint configuration for consistent style
+
+## 📌 What’s Next / In Progress
+
+* Additional project cards and case studies
+* Backend integration (contact form, CMS)
+* More animations and micro-interactions
+* Dark mode toggle
 
 
-✅ Features
+## 📫 Contact
 
--Sleek, full‑width layout with Netflix‑inspired visuals
+* Email: [your.email@example.com](mailto:ssrivatsava@gmail.com)
+* LinkedIn: [[https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/snigdha-srivatsava/)]
+* GitHub: [https://github.com/ssrivatsava7](https://github.com/ssrivatsava7)
 
--Easy navigation between projects, “About Me”, and resume sections
 
--Responsive design: looks great on desktop and mobile
-
--Thoughtful UI/UX: hover effects, card animations, clean typography
-
--Code quality: TypeScript for type‑safety, ESLint configuration for consistent style
-
-📌 What’s Next / In Progress
-
--Additional project cards + case studies for more depth
-
--Backend integration (contact form, CMS)
-
--More animations & micro‑interactions
-
--Dark mode toggle 
