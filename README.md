@@ -99,7 +99,7 @@ npm run format
 ## 📫 Contact
 
 * Email: [ssrivatsava@gmail.com](mailto:ssrivatsava@gmail.com)
-* LinkedIn: [[(https://www.linkedin.com/in/snigdha-srivatsava/)](https://www.linkedin.com/in/snigdha-srivatsava/)]
+* LinkedIn: [(https://www.linkedin.com/in/snigdha-srivatsava/)](https://www.linkedin.com/in/snigdha-srivatsava/)
 * GitHub: [https://github.com/ssrivatsava7](https://github.com/ssrivatsava7)
 
 
