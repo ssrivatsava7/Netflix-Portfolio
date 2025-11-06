@@ -33,7 +33,7 @@ Here’s what this project uses:
 
 
 ## 🎬 Live Demo  
-Click here to view the live site: [https://netflix‑portfolio‑liart.vercel.app/]
+Click here to view the live site: [https://netflix-portfolio-liart.vercel.app/](https://netflix-portfolio-liart.vercel.app/)
 
 ## 🛠️ Getting Started (Developer Instructions)  
 If you’d like to run this locally, here are the steps:
@@ -61,3 +61,26 @@ npm run preview
 5. (Optional) Lint / format code
 npm run lint
 npm run format
+
+
+✅ Features
+
+-Sleek, full‑width layout with Netflix‑inspired visuals
+
+-Easy navigation between projects, “About Me”, and resume sections
+
+-Responsive design: looks great on desktop and mobile
+
+-Thoughtful UI/UX: hover effects, card animations, clean typography
+
+-Code quality: TypeScript for type‑safety, ESLint configuration for consistent style
+
+📌 What’s Next / In Progress
+
+-Additional project cards + case studies for more depth
+
+-Backend integration (contact form, CMS)
+
+-More animations & micro‑interactions
+
+-Dark mode toggle 
