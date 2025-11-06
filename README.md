@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# Netflix‑Style Fullstack Portfolio  
+*A web application showcasing my projects, resume, and personal brand — styled in a Netflix‑inspired UI*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview  
+Welcome to my portfolio — a fullstack web application that presents my profile in a sleek, modern interface inspired by the visual layout of Netflix.
+The goal: stand out by combining strong UI/UX with solid engineering and show that I can deliver both design and code.
 
-Currently, two official plugins are available:
+## 🎯 Why This Project Matters  
+- **Visual differentiation:** Rather than a standard static portfolio website, this delivers a dynamic, interactive experience.  
+- **End‑to‑end fullstack demonstration:** From frontend UI to backend logic.
+- **Tech fluency:** Highlights my proficiency in modern web development tools, component design, state management, and deployment.  
+- **Recruiter‑friendly:** Easy to explore my work, navigate projects, and view my resume — all in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Tech Stack  
+Here’s what this project uses:  
+- **Frontend:** TypeScript, React / Vite (fast build & HMR)  
+- **Styling:** Tailwind CSS for utility‑first styling  
+- **Bundler / Dev Tools:** Vite (superior developer experience)  
+- **Linting / Quality:** ESLint (config present)  
+- **Deployment:** Vercel
 
-## React Compiler
+## 📁 Project Structure  
+/public → Static assets
+/src → All source code
+/components → Reusable UI components
+/pages → Page views
+/styles → Global styles / Tailwind config
+.gitignore
+package.json
+tailwind.config.js
+vite.config.ts
+README.md
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🎬 Live Demo  
+Click here to view the live site: [https://netflix‑portfolio‑liart.vercel.app/]
 
-If you are developing a production application, I recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Getting Started (Developer Instructions)  
+If you’d like to run this locally, here are the steps:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/ssrivatsava7/netflix‑portfolio.git
+   cd netflix‑portfolio
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+   
+2. Install dependencies:
+npm install
+# or
+yarn install
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3. Start the development server:
+npm run dev
+# open http://localhost:5173 in your browser (or whichever port Vite uses)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+4. Build for production
+npm run build
+npm run preview
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+5. (Optional) Lint / format code
+npm run lint
+npm run format
