@@ -98,8 +98,8 @@ npm run format
 
 ## 📫 Contact
 
-* Email: [your.email@example.com](mailto:ssrivatsava@gmail.com)
-* LinkedIn: [[https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/snigdha-srivatsava/)]
+* Email: [ssrivatsava@gmail.com](mailto:ssrivatsava@gmail.com)
+* LinkedIn: [[(https://www.linkedin.com/in/snigdha-srivatsava/)](https://www.linkedin.com/in/snigdha-srivatsava/)]
 * GitHub: [https://github.com/ssrivatsava7](https://github.com/ssrivatsava7)
 
 
