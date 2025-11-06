@@ -20,8 +20,8 @@ Here’s what this project uses:
 - **Deployment:** Vercel
 
 ## 📁 Project Structure  
-/public → Static assets
-/src → All source code
+- /public → Static assets
+- /src → All source code
 /components → Reusable UI components
 /pages → Page views
 /styles → Global styles / Tailwind config
@@ -46,13 +46,13 @@ If you’d like to run this locally, here are the steps:
    
 2. Install dependencies:
 npm install
-# or
+or
 yarn install
 
 
 3. Start the development server:
 npm run dev
-# open http://localhost:5173 in your browser (or whichever port Vite uses)
+open http://localhost:5173 in your browser (or whichever port Vite uses)
 
 4. Build for production
 npm run build
