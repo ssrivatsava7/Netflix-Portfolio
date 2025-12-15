@@ -7,13 +7,6 @@
 Welcome to my portfolio — a fullstack web application that presents my profile in a sleek, modern interface inspired by the visual layout of Netflix.
 The goal: stand out by combining strong UI/UX with solid engineering and demonstrate the ability to deliver both design and code.
 
-## 🎯 Why This Project Matters
-
-* **Visual differentiation:** A dynamic, interactive experience instead of a static portfolio website.
-* **End-to-end fullstack demonstration:** From frontend UI to backend logic.
-* **Tech fluency:** Highlights proficiency in modern web development tools, component design, state management, and deployment.
-* **Recruiter-friendly:** Easy to explore work, navigate projects, and view the resume — all in one place.
-
 ## 🧰 Tech Stack
 
 * **Frontend:** TypeScript, React / Vite
@@ -88,7 +81,7 @@ npm run format
 * Thoughtful UI/UX: hover effects, card animations, clean typography
 * Code quality: TypeScript for type-safety, ESLint configuration for consistent style
 
-## 📌 What’s Next / In Progress
+## 📌 What’s Next / In Progress..
 
 * Additional project cards and case studies
 * Backend integration (contact form, CMS)
